@@ -11,8 +11,8 @@ Managing a variable only for that purpose could decrease your code readability, 
 We would like to associate a counter with list of items without managing an additional variable.
 
 ### How it works ?
-The function "count()" from "itertools" that will play the counter role (as an iterator).
-This is the parameter passed to count() that allows the first item initialisation. The value is by default set at 0.
+The function "count()" from "itertools" will play the counter role (as an iterator).
+The parameter passed to count() allows the first item initialisation. The value is set at 0 by default.
 
 Indeed, our goal is to obtain the same results as below, without using the variable count.
 ```
